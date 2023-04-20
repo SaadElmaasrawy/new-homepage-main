@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <title>news homepage main</title>
+</head>
+<body class="font-[Inter]">
+    <div class="w-[80%] m-auto max-sm:w-[90%]" id="con">
+        <!-- navbar  -->
+        <div class="flex flex-row justify-between items-center my-[10vh]">
+            <div>
+                <img src="./assets/images/logo.svg" alt="">
+            </div>
+            <div class="flex w-[38%] justify-between max-sm:bg-[url('./assets/images/icon-menu.svg')] max-sm:bg-contain max-sm:h-5  max-sm:bg-no-repeat max-sm:w-[15%] duration-300 z-1000 " id="menu">
+                <ul class="flex max-sm:hidden justify-between w-[100%] font-[300] text-[#00001a] max-sm:flex-col  z-10 max-sm:bg-[#fffdfa] max-sm:absolute right-0 bottom-0 max-sm:w-[60%] max-sm:h-[80vh] max-sm:justify-center max-sm:gap-5 max-sm:duration-300 max-sm:pl-10" id="list">
+                    <li class="hover:text-[#e9ab53] duration-300 cursor-pointer">Home</li>
+                    <li class="hover:text-[#e9ab53] duration-300 cursor-pointer">New</li>
+                    <li class="hover:text-[#e9ab53] duration-300 cursor-pointer">Popular</li>
+                    <li class="hover:text-[#e9ab53] duration-300 cursor-pointer">Trending</li>
+                    <li class="hover:text-[#e9ab53] duration-300 cursor-pointer">Categories</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- section 1  -->
+        <div class="flex flex-row justify-between m-auto max-sm:flex-col">
+            <div class=" w-[69%] max-sm:w-[100%]">
+                <div class="bg-[url('./assets/images/image-web-3-desktop.jpg')]  h-[60%] bg-cover max-sm:bg-[('./assets/images/image-web-3-mobile.jpg')] max-sm:w-[100%] max-sm:h-[50vh] max-sm:bg-center max-sm:bg-cover max-sm:bg-no-repeat max-sm:mb-5">
+                </div>
+                <div class="flex flex-row max-sm:flex-col">
+                    <div class="basis-1/2">
+                        <h1 class="text-[#00001a] text-[46px] w-[80%] font-[800] max-sm:w-[100%] max-sm:mb-3">The Bright Future of web 3.0?</h1>
+                    </div>
+                    <div class="basis-1/2  flex flex-col justify-between">
+                        <p class="text-[14px] text-[#5d5f79] text-left my-auto max-sm:mb-5 max-sm:text-[15px]">
+                            We dive into the next evolution of the web that<br/>claims to put the power of the platforms back<br/>into the hands of the people. But is it really<br/>fulfilling its promise?
+                        </p>
+                        <button class="w-[200px] h-[50px] text-[#fffdfa] font-[600] tracking-[5px] bg-[#f15e50] duration-300 hover:bg-[#00001a] max-sm:mb-16">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" bg-[#00001a] text-[#fffdfa] w-[29%] p-4 pb-0 max-sm:w-[100%]">
+                <h1 class="text-[#e9ab53] font-[500] text-[42px] mb-7">New</h1>
+                <div>
+                    <h2 class="font-[700] text-[18px] mb-2 hover:text-[#e9ab53] duration-300 cursor-pointer">Hydrogen VS Electric Cars</h2>
+                    <p class="text-[14px] text-[#c5c6ce] font-[300] mb-8">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <hr class="text-[#c5c6ce] mb-7">
+                <div>
+                    <h2 class="font-[700] text-[18px] mb-2 hover:text-[#e9ab53] duration-300 cursor-pointer">The Downsides of AI Artistry</h2>
+                    <p class="text-[14px] text-[#c5c6ce] font-[300] mb-8">What are the possible adverse effects of on-demand AI image generation?</p>
+                </div>
+                <hr class="text-[#c5c6ce] mb-7">
+                <div>
+                    <h2 class="font-[700] text-[18px] mb-2 hover:text-[#e9ab53] duration-300 cursor-pointer">Is VC Funding Drying Up?</h2>
+                    <p class="text-[14px] text-[#c5c6ce] font-[300] mb-8">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- setion 2 -->
+        <div class="flex flex-row my-10 max-sm:flex-col max-sm:gap-10 max-sm:mb-28">
+            <div class="basis-1/3 flex flex-row justify-between w-[100%]">
+                <div class="bg-[url('./assets/images/image-retro-pcs.jpg')] w-[100px] h-[120px] bg-cover bg-center">
+                </div>
+                <div class="w-[60%] flex flex-col justify-between">
+                    <h1 class="text-[#c5c6ce] text-[28px] font-[700]">01</h1>
+                    <h2 class="font-[700] hover:text-[#e9ab53] duration-300 cursor-pointer">Reviving Retro PCs</h2>
+                    <p class="text-[#5d5f79] text-[12px]">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+            <div class="basis-1/3 flex flex-row justify-between w-[100%]">
+                <div class="bg-[url('./assets/images/image-top-laptops.jpg')] w-[100px] h-[120px] bg-cover bg-center">
+                </div>
+                <div class="w-[60%] flex flex-col justify-between">
+                    <h1 class="text-[#c5c6ce] text-[28px] font-[700]">02</h1>
+                    <h2 class="font-[700] hover:text-[#e9ab53] duration-300 cursor-pointer">Top 10 Laptops of 2022</h2>
+                    <p class="text-[#5d5f79] text-[12px]">Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div class="basis-1/3 flex flex-row justify-between w-[100%]">
+                <div class="bg-[url('./assets/images/image-gaming-growth.jpg')] w-[100px] h-[120px] bg-cover bg-center">
+                </div>
+                <div class="w-[60%] flex flex-col justify-between">
+                    <h1 class="text-[#c5c6ce] text-[28px] font-[700]">03</h1>
+                    <h2 class="font-[700] hover:text-[#e9ab53] duration-300 cursor-pointer">The Growth of Gaming</h2>
+                    <p class="text-[#5d5f79] text-[12px]">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
